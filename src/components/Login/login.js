@@ -1,29 +1,31 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./join.css";
+import "./login.css";
 
-export default function SignIn() {
+export default function Login() {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
 
   return (
-    <div className="joinOuterContainer">
-      <div className="joinInnerContainer">
-        <h1 className="heading">Join</h1>
+    <div className="loginOuterContainer">
+      <div className="loginInnerContainer">
+        <h1 className="heading">Log In</h1>
         <div>
           <input
             placeholder="Name"
-            className="joinInput"
+            className="loginInput"
+            required
             type="text"
-            onChange={(event) => setName(event.target.value)}
+            onChange={(e) => setName(e.target.value)}
           />
         </div>
         <div>
           <input
             placeholder="Room"
-            className="joinInput mt-20"
+            className="loginInput mt-20"
+            required
             type="text"
-            onChange={(event) => setRoom(event.target.value)}
+            onChange={(e) => setRoom(e.target.value)}
           />
         </div>
         <Link
@@ -31,7 +33,7 @@ export default function SignIn() {
           to={`/chat?name=${name}&room=${room}`}
         >
           <button className={"button mt-20"} type="submit">
-            Sign In
+            SUBMIT
           </button>
         </Link>
       </div>

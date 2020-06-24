@@ -13,20 +13,20 @@ body {
   box-sizing: border-box;
 }
 
-.joinOuterContainer {
+.loginOuterContainer {
   display: flex;
   justify-content: center;
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1a1a1d;
+  background-color: #1d1d1f;
 }
 
-.joinInnerContainer {
+.loginInnerContainer {
   width: 20%;
 }
 
-.joinInput {
+.loginInput {
   border-radius: 0;
   padding: 15px 20px;
   width: 100%;
@@ -41,9 +41,8 @@ body {
 
 .button {
   color: #fff !important;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #2979ff;
+  font-size: 20px;
+  background: #21521b;
   padding: 20px;
   border-radius: 5px;
   display: inline-block;
@@ -56,11 +55,11 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .joinOuterContainer {
+  .loginOuterContainer {
     height: 100%;
   }
 
-  .joinInnerContainer {
+  .loginInnerContainer {
     width: 90%;
   }
 }
