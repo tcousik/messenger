@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./join.css";
 
-const Join = () => {
+export default function SignIn() {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
 
@@ -13,29 +13,28 @@ const Join = () => {
         <div>
           <input
             placeholder="Name"
-            onChange={(e) => setName(e.target.value)}
             className="joinInput"
             type="text"
-          ></input>
+            onChange={(event) => setName(event.target.value)}
+          />
         </div>
         <div>
           <input
             placeholder="Room"
-            onChange={(e) => setRoom(e.target.value)}
             className="joinInput mt-20"
             type="text"
-          ></input>
+            onChange={(event) => setRoom(event.target.value)}
+          />
         </div>
         <Link
-          to={`/chat?name=${name}&room=${room}`}
           onClick={(e) => (!name || !room ? e.preventDefault() : null)}
+          to={`/chat?name=${name}&room=${room}`}
         >
-          <button className="button mt-20" type="submit">
+          <button className={"button mt-20"} type="submit">
             Sign In
           </button>
         </Link>
       </div>
     </div>
   );
-};
-export default Join;
+}
