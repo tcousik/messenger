@@ -1,5 +1,5 @@
 import React from "react";
-import closeIcon from "../../icons/closeIcon.png";
+
 import "./infoBar.css";
 
 const InfoBar = ({ room }) => (
@@ -8,8 +8,8 @@ const InfoBar = ({ room }) => (
       <h3>Room: {room}</h3>
     </div>
     <div className="rightInnerContainer">
-      <a href="/">
-        <img src={closeIcon} alt="close icon" />
+      <a id="close" href="/">
+        X
       </a>
     </div>
   </div>

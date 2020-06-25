@@ -1,5 +1,5 @@
 import React from "react";
-import onlineIcon from "../../icons/onlineIcon.png";
+
 import "./textContainer.css";
 
 const TextContainer = ({ users }) => (
@@ -12,7 +12,6 @@ const TextContainer = ({ users }) => (
             {users.map(({ name }) => (
               <div key={name} className="activeItem">
                 {name.charAt(0).toUpperCase() + name.slice(1)}
-                <img alt="Online Icon" src={onlineIcon} />
               </div>
             ))}
           </h2>
