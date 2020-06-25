@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #216e16;
-
-  height: 60px;
+  height: 13%;
   width: 100%;
 }
 
@@ -24,6 +23,13 @@
 }
 
 #close {
+  color: white;
+  background-color: #2d991f;
+  border: none;
+  padding: 8px 10px;
+}
+
+#x {
   text-decoration: none;
   color: white;
 }

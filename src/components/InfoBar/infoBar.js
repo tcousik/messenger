@@ -8,9 +8,11 @@ const InfoBar = ({ room }) => (
       <h3>Room: {room}</h3>
     </div>
     <div className="rightInnerContainer">
-      <a id="close" href="/">
-        X
-      </a>
+      <button id="close">
+        <a id="x" href="/">
+          X
+        </a>
+      </button>
     </div>
   </div>
 );
