@@ -1,10 +1,17 @@
 .textContainer {
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
   color: white;
-  height: 60%;
+  height: 95%;
   justify-content: space-between;
+  border: 1px solid white;
+  width: 200px;
+}
+
+#title {
+  font-size: 1em;
+  background-color: #216e16;
+  margin: 4%;
 }
 
 .activeContainer {

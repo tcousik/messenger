@@ -27,7 +27,6 @@ body {
 }
 
 .loginInput {
-  border-radius: 0;
   padding: 15px 20px;
   width: 100%;
 }
@@ -40,7 +39,7 @@ body {
 }
 
 .button {
-  color: #fff !important;
+  color: white;
   font-size: 20px;
   background: #216e16;
   padding: 20px;
