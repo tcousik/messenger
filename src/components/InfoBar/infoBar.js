@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./infoBar.css";
 
 const InfoBar = ({ room }) => (
@@ -8,11 +8,9 @@ const InfoBar = ({ room }) => (
       <h3>Room: {room}</h3>
     </div>
     <div className="rightInnerContainer">
-      <button id="close">
-        <a id="x" href="/">
-          X
-        </a>
-      </button>
+      <Link to="/">
+        <button id="close">X</button>
+      </Link>
     </div>
   </div>
 );

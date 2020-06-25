@@ -27,9 +27,9 @@
   background-color: #2d991f;
   border: none;
   padding: 8px 10px;
+  font-size: 1.1em;
 }
 
-#x {
-  text-decoration: none;
-  color: white;
+#close:hover {
+  cursor: pointer;
 }
