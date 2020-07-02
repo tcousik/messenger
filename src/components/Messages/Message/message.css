@@ -1,61 +1,32 @@
-.messageBox {
-  background: #f3f3f3;
-  border-radius: 20px;
-  padding: 0px 5px;
-  color: white;
-  display: inline-block;
-  min-width: 6%;
-  max-width: 80%;
-}
-
-.messageText {
-  width: 100%;
-  letter-spacing: 0;
-  float: left;
-  font-size: 0.9em;
-  word-wrap: break-word;
-}
-
-.messageText img {
-  vertical-align: middle;
-}
-
-.messageContainer {
+.sentContainer {
   display: flex;
   justify-content: flex-end;
   padding: 0 3%;
   margin-top: 3px;
 }
 
-.sentText {
-  display: flex;
-  align-items: center;
-  font-family: Helvetica;
-  font-size: 0.9em;
-  color: red;
-  letter-spacing: 0.3px;
-}
-
-.justifyStart {
-  justify-content: flex-start;
-}
-
-.justifyEnd {
-  justify-content: flex-end;
-}
-
-.colorWhite {
-  color: white;
-}
-
-.colorDark {
-  color: #353535;
-}
-
-.backgroundGreen {
+.sentBox {
   background: #216e16;
+  border-radius: 20px;
+  padding: 0px 5px;
+  color: white;
+  font-size: 0.9em;
+  word-wrap: break-word;
 }
 
-.backgroundLight {
+.receivedContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 3%;
+  margin-top: 3px;
+  max-width: 50%;
+}
+
+.receivedBox {
   background: #f3f3f3;
+  border-radius: 20px;
+  padding: 0px 5px;
+  color: #353535;
+  font-size: 0.9em;
+  word-wrap: break-word;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./message.css";
 
 import ReactEmoji from "react-emoji";
@@ -14,20 +13,15 @@ const Message = ({ message: { text, user }, name }) => {
   }
 
   return isSentByCurrentUser ? (
-    <div className="messageContainer justifyEnd">
-      <p className="sentText">
-        {trimmedName.charAt(0).toUpperCase() + trimmedName.slice(1)}
-      </p>
-      <div className="messageBox backgroundGreen">
-        <p className="messageText colorWhite">{ReactEmoji.emojify(text)}</p>
+    <div className="sentContainer">
+      <div className="sentBox">
+        <p>{ReactEmoji.emojify(text)}</p>
       </div>
     </div>
   ) : (
-    <div className="messageContainer justifyStart">
-      <p className="sentText">{user.charAt(0).toUpperCase() + user.slice(1)}</p>
-      <div className="messageBox backgroundLight">
-        <p className="messageText colorDark">{ReactEmoji.emojify(text)}</p>
-      </div>
+    <div className="receivedContainer">
+      <div>{user.charAt(0).toUpperCase() + user.slice(1)}</div>
+      <div className="receivedBox">{ReactEmoji.emojify(text)}</div>
     </div>
   );
 };
