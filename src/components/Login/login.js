@@ -9,10 +9,13 @@ export default function Login() {
   return (
     <div className="loginOuterContainer">
       <div className="loginInnerContainer">
-        <h1 className="heading">Log In</h1>
+        <h1 className="heading">
+          Welcome to Messenger. Create a username and a room to use the
+          application.
+        </h1>
         <div>
           <input
-            placeholder="Name"
+            placeholder="Create a username..."
             className="loginInput"
             required
             type="text"
@@ -21,7 +24,7 @@ export default function Login() {
         </div>
         <div>
           <input
-            placeholder="Room"
+            placeholder="Create/join a room..."
             className="loginInput mt-20"
             required
             type="text"

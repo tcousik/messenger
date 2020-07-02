@@ -15,10 +15,10 @@ const Message = ({ message: { text, user }, name }) => {
 
   return isSentByCurrentUser ? (
     <div className="messageContainer justifyEnd">
+      <p className="sentText">
+        {trimmedName.charAt(0).toUpperCase() + trimmedName.slice(1)}
+      </p>
       <div className="messageBox backgroundGreen">
-        <p className="sentText">
-          {trimmedName.charAt(0).toUpperCase() + trimmedName.slice(1)}
-        </p>
         <p className="messageText colorWhite">{ReactEmoji.emojify(text)}</p>
       </div>
     </div>
