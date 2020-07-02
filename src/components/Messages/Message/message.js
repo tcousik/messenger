@@ -24,10 +24,8 @@ const Message = ({ message: { text, user }, name }) => {
     </div>
   ) : (
     <div className="messageContainer justifyStart">
+      <p className="sentText">{user.charAt(0).toUpperCase() + user.slice(1)}</p>
       <div className="messageBox backgroundLight">
-        <p className="sentText">
-          {user.charAt(0).toUpperCase() + user.slice(1)}
-        </p>
         <p className="messageText colorDark">{ReactEmoji.emojify(text)}</p>
       </div>
     </div>
