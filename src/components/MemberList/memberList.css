@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   color: white;
-  height: 95%;
+  height: 98%;
   justify-content: space-between;
-  width: 200px;
+  width: 240px;
   background-color: #216e16;
 }
 
@@ -16,8 +16,8 @@
 
 .activeContainer {
   display: flex;
-  align-items: right;
   background-color: black;
+  border: 1px solid white;
   height: 400px;
 }
 
@@ -28,12 +28,4 @@
   margin: 5px 159px 0px 0px;
   width: 100%;
   border: 1px solid white;
-}
-
-.activeContainer img {
-  padding-left: 10px;
-}
-
-.textContainer h1 {
-  margin-bottom: 0px;
 }

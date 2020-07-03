@@ -11,12 +11,12 @@
   flex-direction: column;
   justify-content: space-between;
   background: #dddddd;
-  height: 95%;
-  width: 60%;
+  height: 98%;
+  width: 70%;
   border-left: 2px solid black;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+/* @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {
     height: 100%;
   }
@@ -31,4 +31,4 @@
   .container {
     width: 60%;
   }
-}
+} */

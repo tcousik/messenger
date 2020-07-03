@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./textContainer.css";
+import "./memberList.css";
 
-const TextContainer = ({ users }) => (
+const MemberList = ({ users }) => (
   <div className="textContainer">
     {users ? (
       <div>
@@ -23,4 +23,4 @@ const TextContainer = ({ users }) => (
   </div>
 );
 
-export default TextContainer;
+export default MemberList;

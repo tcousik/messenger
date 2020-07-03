@@ -15,7 +15,7 @@ const Message = ({ message: { text, user }, name }) => {
   return isSentByCurrentUser ? (
     <div className="sentContainer">
       <div className="sentBox">
-        <p>{ReactEmoji.emojify(text)}</p>
+        <p id="text">{ReactEmoji.emojify(text)}</p>
       </div>
     </div>
   ) : (
@@ -23,7 +23,7 @@ const Message = ({ message: { text, user }, name }) => {
       <div></div>
       <div className="receivedBox">
         <p id="username">{user.charAt(0).toUpperCase() + user.slice(1)}</p>
-        <p>{ReactEmoji.emojify(text)}</p>
+        <p id="content">{ReactEmoji.emojify(text)}</p>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import queryString from "query-string";
 import io from "socket.io-client";
-import TextContainer from "../TextContainer/textContainer";
+import MemberList from "../MemberList/memberList";
 import Messages from "../Messages/messages";
 import InfoBar from "../InfoBar/infoBar";
 import Input from "../Input/input";
@@ -53,7 +53,7 @@ const Chat = ({ location }) => {
 
   return (
     <div className="outerContainer">
-      <TextContainer users={users} />
+      <MemberList users={users} />
       <div className="container">
         <InfoBar room={room} />
         <Messages messages={messages} name={name} />

@@ -3,15 +3,14 @@
   justify-content: flex-end;
   padding: 0 3%;
   margin-top: 3px;
-  border: 1px white solid;
 }
 
 .sentBox {
   background: #216e16;
   border-radius: 20px;
-  padding: 0px 15px;
+
   color: white;
-  font-size: 0.9em;
+  font-size: 1.1em;
   word-wrap: break-word;
   overflow: auto;
   max-width: 60%;
@@ -38,5 +37,14 @@
 #username {
   font-weight: bold;
   font-size: 0.9em;
-  margin-bottom: -15px;
+  margin-top: 5px;
+}
+
+#content {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+#text {
+  margin: 12px;
 }
