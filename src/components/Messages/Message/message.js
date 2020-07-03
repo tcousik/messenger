@@ -20,8 +20,11 @@ const Message = ({ message: { text, user }, name }) => {
     </div>
   ) : (
     <div className="receivedContainer">
-      <div>{user.charAt(0).toUpperCase() + user.slice(1)}</div>
-      <div className="receivedBox">{ReactEmoji.emojify(text)}</div>
+      <div></div>
+      <div className="receivedBox">
+        <p id="username">{user.charAt(0).toUpperCase() + user.slice(1)}</p>
+        <p>{ReactEmoji.emojify(text)}</p>
+      </div>
     </div>
   );
 };
