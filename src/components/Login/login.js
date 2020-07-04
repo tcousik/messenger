@@ -39,6 +39,7 @@ export default function Login() {
             SUBMIT
           </button>
         </Link>
+        <p className="footer">Created by Tejas Cousik</p>
       </div>
     </div>
   );
