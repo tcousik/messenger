@@ -10,8 +10,8 @@ export default function Login() {
     <div className="loginOuterContainer">
       <div className="loginInnerContainer">
         <h1 className="heading">
-          Welcome to Messenger. Create a username and a room to use the
-          application.
+          Welcome to Messenger. Create a username and a room to chat with other
+          users.
         </h1>
         <div>
           <input
