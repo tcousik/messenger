@@ -5,7 +5,7 @@ import "./infoBar.css";
 const InfoBar = ({ room }) => (
   <div className="infoBar">
     <div className="leftInnerContainer">
-      <h3>Room: {room}</h3>
+      <h3 className="room">Room: {room}</h3>
     </div>
     <div className="rightInnerContainer">
       <Link to="/">

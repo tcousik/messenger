@@ -9,7 +9,7 @@ const MemberList = ({ users }) => (
         <div id="title">
           <h2>Active members</h2>
         </div>
-        <div className="activeContainer">
+        <div className="memberSpace">
           <h3>
             {users.map(({ name }) => (
               <div key={name} className="activeItem">

@@ -3,22 +3,23 @@
   flex-direction: column;
   color: white;
   height: 98%;
+  align-items: center;
   justify-content: space-between;
   width: 240px;
-  background-color: #216e16;
+  background-color: #2d7623;
 }
 
 #title {
+  border: 3px solid #c74b66;
   font-size: 0.8em;
-  background-color: #2d991f;
-  padding: 8px;
+  text-align: center;
 }
 
-.activeContainer {
+.memberSpace {
   display: flex;
-  background-color: black;
-  border: 1px solid white;
-  height: 400px;
+  background-color: #1d1d1f;
+  height: 200px;
+  border-radius: 3%;
 }
 
 .activeItem {
@@ -27,5 +28,9 @@
   padding: 2px;
   margin: 5px 159px 0px 0px;
   width: 100%;
-  border: 1px solid white;
+  background-color: gray;
+}
+
+h3 {
+  width: 100%;
 }
