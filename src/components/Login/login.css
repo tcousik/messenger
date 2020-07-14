@@ -29,6 +29,7 @@ body {
 .loginInput {
   padding: 15px 20px;
   width: 100%;
+  margin-top: 20px;
 }
 
 .heading {
@@ -52,22 +53,19 @@ body {
   display: inline-block;
   border: none;
   width: 100%;
-}
-
-.mt-20 {
   margin-top: 20px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-  .loginOuterContainer {
-    height: 100%;
-  }
-
-  .loginInnerContainer {
-    width: 90%;
-  }
+.idk {
+  display: flex;
 }
 
-button:focus {
-  outline: 0;
+.info {
+  margin: 31px 20px 0 0;
+  background-color: #1d1d1f;
+  color: #216e16;
+}
+
+.info:hover {
+  cursor: pointer;
 }

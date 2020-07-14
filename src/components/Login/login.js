@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./login.css";
+import InfoIcon from "@material-ui/icons/Info";
 
 export default function Login() {
   const [name, setName] = useState("");
@@ -9,11 +10,10 @@ export default function Login() {
   return (
     <div className="loginOuterContainer">
       <div className="loginInnerContainer">
-        <h1 className="heading">
-          Welcome to Messenger. Create a username and a room to chat with other
-          users.
-        </h1>
-        <div>
+        <h1 className="heading">Messenger</h1>
+        <div className="idk">
+          <InfoIcon className="info" />
+
           <input
             placeholder="Create a username..."
             className="loginInput"
@@ -22,10 +22,12 @@ export default function Login() {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div>
+        <div className="idk">
+          <InfoIcon className="info" />
+
           <input
             placeholder="Create/join a room..."
-            className="loginInput mt-20"
+            className="loginInput"
             required
             type="text"
             onChange={(e) => setRoom(e.target.value)}
@@ -35,8 +37,8 @@ export default function Login() {
           onClick={(e) => (!name || !room ? e.preventDefault() : null)}
           to={`/chat?name=${name}&room=${room}`}
         >
-          <button className={"button mt-20"} type="submit">
-            SUBMIT
+          <button className={"button"} type="submit">
+            Chat Now
           </button>
         </Link>
         <p className="footer">Created by Tejas Cousik</p>
