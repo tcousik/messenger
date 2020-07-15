@@ -1,19 +1,29 @@
 .outerContainer {
+  background-color: #313135;
+}
+
+.midContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1d1d1f;
+  background-color: #313135;
 }
 
-.container {
+.chatContainer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #313135;
-  height: 98%;
-  width: 70%;
-  border-left: 2px solid black;
+  background-color: #424247;
+  height: 85%;
+  width: 50%;
+  border: 1px solid green;
+  border-radius: 2%;
+}
+
+.head {
+  width: 50%;
+  border: 2px solid black;
 }
 
 ::-webkit-scrollbar {

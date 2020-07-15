@@ -2,15 +2,16 @@
   display: flex;
   flex-direction: column;
   color: white;
-  height: 98%;
+  height: 60%;
   align-items: center;
   justify-content: space-between;
   width: 240px;
-  background-color: #2d7623;
+
+  margin-right: 10px;
 }
 
 #title {
-  border: 3px solid #c74b66;
+  border: 3px solid #91262c;
   font-size: 0.8em;
   text-align: center;
 }

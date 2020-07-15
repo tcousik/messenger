@@ -9,7 +9,7 @@ const InfoBar = ({ room }) => (
     </div>
     <div className="rightInnerContainer">
       <Link to="/">
-        <button id="close">X</button>
+        <button id="close">Leave Room</button>
       </Link>
     </div>
   </div>
