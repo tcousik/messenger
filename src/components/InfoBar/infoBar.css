@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 13%;
-  width: 100%;
+  border: 2px solid black;
 }
 
 .leftInnerContainer {
@@ -23,7 +22,6 @@
 
 .room {
   border: 3px solid #91262c;
-  padding: 8px;
   width: auto;
 }
 
@@ -31,7 +29,6 @@
   color: white;
   background-color: #52a947;
   border: none;
-  padding: 8px 12px;
   font-size: 1.1em;
   border-radius: 5px;
 }

@@ -1,4 +1,4 @@
-.outerContainer {
+.outer {
   background-color: #313135;
 }
 
@@ -6,8 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding-top: 0px;
+  height: 86vh;
   background-color: #313135;
+  border: 2px solid red;
 }
 
 .chatContainer {
@@ -17,13 +19,14 @@
   background-color: #424247;
   height: 85%;
   width: 50%;
-  border: 1px solid green;
+  border: 2px solid green;
   border-radius: 2%;
 }
 
 .head {
   width: 50%;
-  border: 2px solid black;
+
+  margin-left: 35vw;
 }
 
 ::-webkit-scrollbar {
