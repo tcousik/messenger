@@ -1,14 +1,14 @@
 .outer {
   background-color: #313135;
+  border: 5px solid blue;
 }
 
 .midContainer {
   display: flex;
   justify-content: center;
-  height: 86vh;
+  padding: 10%;
   background-color: #313135;
   border: 2px solid red;
-  border-top: 5px solid yellow;
 }
 
 .chatContainer {
@@ -16,7 +16,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #424247;
-  height: 85%;
+  height: 95%;
   width: 50%;
   border: 2px solid green;
   border-radius: 2%;
@@ -24,7 +24,6 @@
 
 .head {
   width: 50%;
-
   margin-left: 35vw;
 }
 
