@@ -11,9 +11,11 @@ export default function Login() {
     <div className="loginOuterContainer">
       <div className="loginInnerContainer">
         <h1 className="heading">Messenger</h1>
-        <div className="idk">
-          <InfoIcon className="info" />
-
+        <div className="inputspace">
+          <div className="tooltip">
+            <InfoIcon className="info" />
+            <span class="tooltiptext">Tooltip text</span>
+          </div>
           <input
             placeholder="Create a username..."
             className="loginInput"
@@ -22,9 +24,8 @@ export default function Login() {
             onChange={(e) => setName(e.target.value)}
           />
         </div>
-        <div className="idk">
+        <div className="inputspace">
           <InfoIcon className="info" />
-
           <input
             placeholder="Create/join a room..."
             className="loginInput"
