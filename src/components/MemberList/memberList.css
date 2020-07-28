@@ -10,7 +10,6 @@
 }
 
 #title {
-  border: 3px solid #91262c;
   font-size: 0.8em;
   text-align: center;
 }
@@ -20,7 +19,7 @@
   background-color: #1d1d1f;
   height: 200px;
   border-radius: 3%;
-  border: 5px solid orange;
+  border: 5px solid green;
 }
 
 .activeItem {

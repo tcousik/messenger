@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #dddddd;
+  background-color: #1d1d1f;
 }
 
 .leftInnerContainer {
@@ -22,6 +22,7 @@
 .room {
   border-bottom: 3px solid #91262c;
   width: auto;
+  color: white;
 }
 
 #close {

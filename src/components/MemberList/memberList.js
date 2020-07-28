@@ -7,7 +7,7 @@ const MemberList = ({ users }) => (
     {users ? (
       <div>
         <div id="title">
-          <h2>Active members</h2>
+          <h2>Members</h2>
         </div>
         <div className="memberSpace">
           <h3>
