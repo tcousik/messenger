@@ -27,4 +27,5 @@ select:focus {
   border: none;
   width: 20%;
   margin: 0 10px 20px 10px;
+  cursor: pointer;
 }

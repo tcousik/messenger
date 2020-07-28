@@ -2,15 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 2px solid black;
+  background-color: #dddddd;
 }
 
 .leftInnerContainer {
-  flex: 0.5;
   display: flex;
+  flex: 0.5;
   align-items: center;
   margin-left: 5%;
-  color: white;
 }
 
 .rightInnerContainer {
@@ -21,7 +20,7 @@
 }
 
 .room {
-  border: 3px solid #91262c;
+  border-bottom: 3px solid #91262c;
   width: auto;
 }
 
@@ -30,6 +29,7 @@
   background-color: #52a947;
   border: none;
   font-size: 1.1em;
+  height: 40px;
   border-radius: 5px;
 }
 

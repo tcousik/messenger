@@ -22,7 +22,6 @@ export default function Login() {
           <input
             placeholder="Create a username..."
             className="loginInput"
-            required
             type="text"
             onChange={(e) => setName(e.target.value)}
           />
@@ -38,7 +37,6 @@ export default function Login() {
           <input
             placeholder="Create/join a room..."
             className="loginInput"
-            required
             type="text"
             onChange={(e) => setRoom(e.target.value)}
           />
