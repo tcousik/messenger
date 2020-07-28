@@ -72,12 +72,19 @@ body {
 
 .tooltip {
   position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid red;
+
+  background-color: #1d1d1f;
+  color: #216e16;
+  margin: 30px 20px 0 0;
+  height: 25px;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  width: 200px;
   background-color: black;
   color: #fff;
   text-align: center;

@@ -13,8 +13,11 @@ export default function Login() {
         <h1 className="heading">Messenger</h1>
         <div className="inputspace">
           <div className="tooltip">
-            <InfoIcon className="info" />
-            <span class="tooltiptext">Tooltip text</span>
+            <InfoIcon />
+            <span class="tooltiptext">
+              Tooltip text Tooltip text Tooltip text Tooltip text Tooltip text
+              Tooltip text Tooltip textTooltip textTooltip text
+            </span>
           </div>
           <input
             placeholder="Create a username..."
