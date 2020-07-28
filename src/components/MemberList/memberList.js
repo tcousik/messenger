@@ -12,7 +12,7 @@ const MemberList = ({ users }) => (
         <div className="memberSpace">
           <h3>
             {users.map(({ name }) => (
-              <div key={name} className="activeItem">
+              <div key={name} className="member">
                 {name.charAt(0).toUpperCase() + name.slice(1)}
               </div>
             ))}

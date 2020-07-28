@@ -17,15 +17,15 @@
 .memberSpace {
   display: flex;
   background-color: #1d1d1f;
-  height: 200px;
+  min-height: 200px;
   border-radius: 3%;
   border: 5px solid green;
 }
 
-.activeItem {
+.member {
   display: flex;
   align-items: center;
-  padding: 2px;
+  padding: 8px;
   margin: 5px 159px 0px 0px;
   width: 100%;
   background-color: gray;

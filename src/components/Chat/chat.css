@@ -12,13 +12,21 @@
   justify-content: space-between;
   background: #ffffff;
   border-radius: 8px;
-  height: 80%;
+  height: 85%;
   width: 55%;
 }
 
+.chatSpace {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 8px;
+  height: 80%;
+}
+
 .head {
-  width: 50%;
-  margin-left: 35vw;
+  background-color: white;
 }
 
 ::-webkit-scrollbar {

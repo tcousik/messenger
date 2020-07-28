@@ -65,6 +65,24 @@ const Chat = ({ location }) => {
       </div>
     </div>
   );
+  // return (
+  //   <div className="outerContainer">
+  //     <MemberList users={users} />
+  //     <div className="container">
+  //       <div className="head">
+  //         <InfoBar room={room} />
+  //       </div>
+  //       <div className="chatSpace">
+  //         <Messages messages={messages} name={name} />
+  //         <Input
+  //           message={message}
+  //           setMessage={setMessage}
+  //           sendMessage={sendMessage}
+  //         />
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
 };
 
 export default Chat;
