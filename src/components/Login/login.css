@@ -54,28 +54,17 @@ body {
   border: none;
   width: 100%;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .inputspace {
   display: flex;
 }
 
-.info {
-  margin: 31px 20px 0 0;
-  background-color: #1d1d1f;
-  color: #216e16;
-}
-
-.info:hover {
-  cursor: pointer;
-}
-
 .tooltip {
   position: relative;
   display: flex;
   align-items: flex-end;
-  border: 1px solid red;
-
   background-color: #1d1d1f;
   color: #216e16;
   margin: 30px 20px 0 0;
@@ -90,12 +79,14 @@ body {
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
   top: -5px;
   right: 105%;
+}
+
+.tooltip:hover {
+  cursor: pointer;
 }
 
 .tooltip:hover .tooltiptext {

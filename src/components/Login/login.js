@@ -28,7 +28,13 @@ export default function Login() {
           />
         </div>
         <div className="inputspace">
-          <InfoIcon className="info" />
+          <div className="tooltip">
+            <InfoIcon />
+            <span class="tooltiptext">
+              Tooltip text Tooltip text Tooltip text Tooltip text Tooltip text
+              Tooltip text Tooltip textTooltip textTooltip text
+            </span>
+          </div>
           <input
             placeholder="Create/join a room..."
             className="loginInput"
