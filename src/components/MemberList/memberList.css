@@ -18,15 +18,14 @@
   display: flex;
   background-color: #1d1d1f;
   min-height: 200px;
-  border-radius: 3%;
-  border: 5px solid green;
+  width: 200px;
+  border: 3px solid green;
 }
 
 .member {
   display: flex;
   align-items: center;
   padding: 8px;
-  margin: 5px 159px 0px 0px;
   width: 100%;
   background-color: gray;
 }

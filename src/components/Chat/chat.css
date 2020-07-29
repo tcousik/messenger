@@ -11,9 +11,9 @@
   flex-direction: column;
   justify-content: space-between;
   background: #ffffff;
-  border-radius: 8px;
-  height: 85%;
-  width: 55%;
+  border: 3px solid forestgreen;
+  height: 90%;
+  width: 60%;
 }
 
 .chatSpace {
@@ -21,7 +21,6 @@
   flex-direction: column;
   justify-content: space-between;
   background: #ffffff;
-  border-radius: 8px;
   height: 80%;
 }
 
