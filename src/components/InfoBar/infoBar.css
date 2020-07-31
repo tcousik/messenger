@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #1d1d1f;
+  height: 70px;
 }
 
 .leftInnerContainer {
@@ -35,4 +36,5 @@
 
 #close:hover {
   cursor: pointer;
+  color: rgb(243, 124, 13);
 }
