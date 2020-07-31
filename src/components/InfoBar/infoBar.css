@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: #1d1d1f;
-  height: 70px;
+  min-height: 70px;
+  margin-bottom: 10px;
 }
 
 .leftInnerContainer {
@@ -52,7 +53,7 @@
   background-color: #52a947;
   border: none;
   font-size: 1.1em;
-  height: 33px;
+  height: 36px;
   border-radius: 5px;
 }
 

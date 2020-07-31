@@ -3,7 +3,6 @@
   border: none;
   outline: none;
   background-color: #1d1d1f;
-  height: 75px;
 }
 
 .input {
@@ -25,7 +24,6 @@ select:focus {
   font-size: 1.2em;
   background-color: #52a947;
   padding: 20px;
-  display: inline-block;
   outline: none;
   border: none;
   width: 20%;
