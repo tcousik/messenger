@@ -5,7 +5,10 @@ import "./infoBar.css";
 const InfoBar = ({ room }) => (
   <div className="infoBar">
     <div className="leftInnerContainer">
-      <h3 className="room">Room: {room}</h3>
+      <div className="room">
+        Room: {room}
+        <span className="hoverText">aaaa</span>
+      </div>
     </div>
     <div className="rightInnerContainer">
       <Link to="/">

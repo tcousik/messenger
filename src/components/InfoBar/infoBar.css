@@ -23,6 +23,28 @@
 .room {
   color: white;
   font-size: 1.6em;
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted red;
+}
+
+.room .hoverText {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  border: 1px solid red;
+}
+
+.room:hover .hoverText {
+  visibility: visible;
 }
 
 #close {
