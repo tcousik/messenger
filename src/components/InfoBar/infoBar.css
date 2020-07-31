@@ -31,7 +31,7 @@
 
 .room .hoverText {
   visibility: hidden;
-  min-width: 330px;
+  min-width: 315px;
   background-color: black;
   font-size: 0.6em;
   color: #fff;
@@ -40,7 +40,8 @@
   border-radius: 3px;
   position: absolute;
   z-index: 1;
-  left: 105%;
+  left: 115%;
+  top: 8%;
   border: 1px solid red;
 }
 
@@ -59,5 +60,6 @@
 
 #close:hover {
   cursor: pointer;
-  color: rgb(243, 124, 13);
+  color: rgb(196, 0, 0);
+  background-color: forestgreen;
 }

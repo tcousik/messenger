@@ -37,9 +37,9 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(243, 124, 13);
+  background-color: rgb(196, 0, 0);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(243, 124, 13);
+  background-color: rgb(196, 0, 0);
 }
