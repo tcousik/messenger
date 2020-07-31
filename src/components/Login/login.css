@@ -41,7 +41,8 @@ body {
 
 .footer {
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-top: 30px;
 }
 
 .button {

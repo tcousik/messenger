@@ -14,10 +14,7 @@ export default function Login() {
         <div className="inputspace">
           <div className="tooltip">
             <InfoIcon />
-            <span class="tooltiptext">
-              Tooltip text Tooltip text Tooltip text Tooltip text Tooltip text
-              Tooltip text Tooltip textTooltip textTooltip text
-            </span>
+            <span class="tooltiptext">Please create a unique username</span>
           </div>
           <input
             placeholder="Create a username..."
@@ -30,8 +27,7 @@ export default function Login() {
           <div className="tooltip">
             <InfoIcon />
             <span class="tooltiptext">
-              Tooltip text Tooltip text Tooltip text Tooltip text Tooltip text
-              Tooltip text Tooltip textTooltip textTooltip text
+              Create a new room or join an existing room to chat with others
             </span>
           </div>
           <input
