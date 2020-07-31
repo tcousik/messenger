@@ -14,7 +14,7 @@ export default function Login() {
         <div className="inputspace">
           <div className="tooltip">
             <InfoIcon />
-            <span class="tooltiptext">Please create a unique username</span>
+            <span class="tooltiptext">Create a unique username</span>
           </div>
           <input
             placeholder="Create a username..."

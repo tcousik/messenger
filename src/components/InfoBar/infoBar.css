@@ -30,15 +30,15 @@
 
 .room .hoverText {
   visibility: hidden;
-  width: 120px;
+  min-width: 330px;
   background-color: black;
+  font-size: 0.6em;
   color: #fff;
   text-align: center;
   padding: 5px 0;
-  border-radius: 6px;
+  border-radius: 3px;
   position: absolute;
   z-index: 1;
-  top: -5px;
   left: 105%;
   border: 1px solid red;
 }
