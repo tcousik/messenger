@@ -17,7 +17,7 @@
 .memberSpace {
   display: flex;
   background-color: #1d1d1f;
-  min-height: 200px;
+  min-height: 230px;
   width: 200px;
   border: 3px solid green;
 }
@@ -27,7 +27,8 @@
   align-items: center;
   padding: 8px;
   width: 100%;
-  background-color: rgb(150, 150, 150);
+  background-color: #dddddd;
+  color: black;
 }
 
 h3 {
