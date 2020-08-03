@@ -3,7 +3,7 @@ import React from "react";
 import "./memberList.css";
 
 const MemberList = ({ users }) => (
-  <div className="textContainer">
+  <div className="memberList">
     {users ? (
       <div>
         <div id="title">

@@ -7,7 +7,9 @@ const InfoBar = ({ room }) => (
     <div className="leftContainer">
       <div className="room">
         Room: {room}
-        <span className="hoverText">Share the room name with your friends</span>
+        <span className="hoverText">
+          Share the room name to chat with friends
+        </span>
       </div>
     </div>
     <div className="rightContainer">
