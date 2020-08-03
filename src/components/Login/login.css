@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 
-.loginOuterContainer {
+.outerContainer {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -22,7 +22,7 @@ body {
   background-color: #1d1d1f;
 }
 
-.loginInnerContainer {
+.innerContainer {
   width: 25%;
 }
 

@@ -8,8 +8,8 @@ export default function Login() {
   const [room, setRoom] = useState("");
 
   return (
-    <div className="loginOuterContainer">
-      <div className="loginInnerContainer">
+    <div className="outerContainer">
+      <div className="innerContainer">
         <h1 className="heading">Messenger</h1>
         <div className="inputspace">
           <div className="tooltip">

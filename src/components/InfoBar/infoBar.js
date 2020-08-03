@@ -4,13 +4,13 @@ import "./infoBar.css";
 
 const InfoBar = ({ room }) => (
   <div className="infoBar">
-    <div className="leftInnerContainer">
+    <div className="leftContainer">
       <div className="room">
         Room: {room}
         <span className="hoverText">Share the room name with your friends</span>
       </div>
     </div>
-    <div className="rightInnerContainer">
+    <div className="rightContainer">
       <Link to="/">
         <button id="close">Leave Room</button>
       </Link>
